@@ -1,5 +1,0 @@
-/* ziyoffc Baileys maintained distribution. Upstream notices and license are preserved in LICENSE and NOTICE.md. */
-
-export declare const GROUP_ADDRESSING_MODES: readonly string[]
-export declare function isUsableGroupMetadata(metadata: any): boolean
-export declare function describeUnusableGroupMetadata(metadata: any): string
