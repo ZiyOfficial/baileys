@@ -1,5 +1,5 @@
 {
-  "name": "@ZiyOfficial/baileys",
+  "name": "@ziyofficial/baileys",
   "version": "1.4.0",
   "description": "ziyoffc Baileys — an independently maintained Baileys distribution with integrated MessageBuilder, interactive messages, carousel/native-flow helpers, and Ziyoffc-specific compatibility work.",
   "main": "src/index.js",
@@ -49,18 +49,17 @@
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^9.1.3",
+    "@wangcab-ziyofficial": "github:ZiyOfficial/wangcab-id",
     "async-mutex": "^0.5.0",
     "fflate": "^0.8.2",
- "libsignal": "github:ZiyOffc/lib-signal"
+    "libsignal": "github:ZiyOffc/lib-signal",
     "lru-cache": "^11.2.6",
     "music-metadata": "^11.12.3",
     "p-queue": "^9.1.0",
     "pino": "^9.6.0",
     "protobufjs": "^7.5.6",
-    "@wangcab-ziyofficial": "github:ZiyOfficial/wangcab-id",
     "ws": "^8.19.0"
   },
- 
   "peerDependencies": {
     "@napi-rs/image": "~1.12.0",
     "@nekodb/client": "*",
@@ -76,42 +75,18 @@
     "sharp": "^0.35.0"
   },
   "peerDependenciesMeta": {
-    "@napi-rs/image": {
-      "optional": true
-    },
-    "@nekodb/client": {
-      "optional": true
-    },
-    "audio-decode": {
-      "optional": true
-    },
-    "better-sqlite3": {
-      "optional": true
-    },
-    "fluent-ffmpeg": {
-      "optional": true
-    },
-    "ioredis": {
-      "optional": true
-    },
-    "jimp": {
-      "optional": true
-    },
-    "link-preview-js": {
-      "optional": true
-    },
-    "mongodb": {
-      "optional": true
-    },
-    "mysql2": {
-      "optional": true
-    },
-    "pg": {
-      "optional": true
-    },
-    "sharp": {
-      "optional": true
-    }
+    "@napi-rs/image": { "optional": true },
+    "@nekodb/client": { "optional": true },
+    "audio-decode": { "optional": true },
+    "better-sqlite3": { "optional": true },
+    "fluent-ffmpeg": { "optional": true },
+    "ioredis": { "optional": true },
+    "jimp": { "optional": true },
+    "link-preview-js": { "optional": true },
+    "mongodb": { "optional": true },
+    "mysql2": { "optional": true },
+    "pg": { "optional": true },
+    "sharp": { "optional": true }
   },
   "resolutions": {
     "ajv@npm:^6.12.4": "^6.14.0",
